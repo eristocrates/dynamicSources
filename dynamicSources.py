@@ -47,7 +47,7 @@ logging.basicConfig(level=logging.INFO)
 sys.path.append('../')
 host = "localhost"
 port = 4444
-password = "QNiKP%@']2QMdu2c"
+password = "" # add your own
 ws = obsws(host, port, password)
 ws.connect()
 
